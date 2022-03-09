@@ -2,13 +2,11 @@ Package: ComputingPackage
 Type: Package
 Title: Risks from Extreme Temperature Events 
 Version: 0.1.0
-Author: Genevieve Chiong
+Authors@R: 
+    person("Genevieve", "Chiong", , "chiong.gp@gmail.com", role = c("aut", "cre"))
 Maintainer: gchiong@bren.ucsb.edu
 Description: Computes level of risk associated with extreme temperature events
-License: NA
+License: 
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
-Imports: dplyr,
-         tidyr
-Suggests: ggplot2
